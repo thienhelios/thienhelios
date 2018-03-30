@@ -1,0 +1,87 @@
+/*===============================
+      Code By Nguyê~n Thanh Thiên
+      CD161QM
+=================================*/
+
+body{ background: #E5E5E5; color: #fff;}
+#wrapper{ width: 100%; padding: 0.5px; margin:3px;}
+#head	{ width: 100%; min-height: 150px; }
+#logo	{ width: 7%; float: left; min-height: 90px;}
+#logo	{}
+#header { width: 31%; float: left; min-height: 90px;margin-top:8px;}
+
+#menubanner {min-height:90px;width: 60%;  float:left;}
+.menubanner {width:100%;min-height:50px; width:auto;float:right;}
+.language{line-height:45px;text-align:right;width:100%;height:45px;font-family:Arial,Helvetica,sans-serif;font-size:12px}
+.iconlang{padding-left:40px}
+#kleft {width:50%; background-color:#999900; float: left;}
+#kright {width:50%; background-color:#33CC99;}
+hr{ width:100%; text-align:center}
+#space-head{width:100%; height:33px;}
+#sidebar{ width: 40%; float: left; min-height: auto;  }
+.block_sidebar { min-height: 166.6PX;}
+#header {}
+#lienket {	min-height: 150px; text-align: center; background-color:#9900CC;}
+#footer{  }
+#hide {
+    opacity: 0;
+}
+.block_sidebar{ background:#339933; }
+.menutrang{width:665px;height:45px}
+
+.menutrangcon{color:red;width:110.83px;height:45px;float:left;line-height:45px;text-align:right;font-weight:bold;font-family:Georgia,"Times New Roman",Times,serif}
+/* phai */
+#content{margin-top:1%; width: 60%; float: left; min-height: auto;}
+/* trai */
+/*.nd1{text-align:left;width:900px;height:1370px;float:left;line-height:40px;margin:top:1%;}
+*/
+.nd2{padding-left:1%;width:39%;height:auto;float:right;margin-top:1%;}
+.nd2-content {padding-left:1%;width:99%; height:auto; }
+.nd2-content-full {width:100%;height:250px}
+/*
+.video{width:450px;height:320px;float:right;line-height:200px;margin-bottom:0}
+.tuyensinh{width:450px;height:320px;float:right;line-height:200px;margin-bottom:0}
+.fb{width:450px;height:320px;float:right;line-height:200px}
+.bando{width:450px;height:410px;float:right;line-height:200px}
+*/
+.cimg{width:auto; height:250px}
+.containernd{width:auto;height:auto}
+#hoptac{margin-top:1%; width:100%; width:100%;float:left;}
+.hoptac-icon{margin-top:1%;width:auto;height:auto;float:left;margin-bottom:1%}
+.font{color:#0000CC;font-weight:bold;height:auto; margin-top:1px;width:100%}
+
+.tieude-lkdn{margin-top:12px;line-height:34px;padding-left:10px;background-color:#0066FF;height:34px;color:white;font-size:18px;width:100%;color:#FFFFFF}
+.footer{width:100%;height:auto}
+.footer1{text-align:center;float:left;background-color:#003333;width:65%;height:160px;color:#CCFFCC;padding-top:30px;}
+.noidungfooter1{text-align:center;line-height:auto;float:left;width:100%;height:70px}
+.footer2{padding-top:30px;text-align:center;float:left;background-color:#003333;width:35%;height:160px;color:#FFFFFF}
+.mxh{padding-top:4px;color:#CCFFFF;padding-left:135px;text-align:center;float:left;width:100%;height:45px}
+.chufoot{width:100%;text-align:center; margin-top:1%}
+.iconmxh{height:20px;top:20px;padding-left:6%;text-align:center;line-height:20px;float:left}
+
+
+
+.clear{clear:both}
+
+
+
+.tieude{margin-top:12px;line-height:34px;padding-left:10px;background-color:#0066FF;height:34px;color:white;font-size:18px;width:100%;color:#FFFFFF}
+.khungtieude{height:auto;width:100%;margin-top:1%;}
+.titlecon{text-align:left;color:#6633CC;font-weight:bold;font-size:20px}
+.khungtdleft{padding-left:1%;text-align:left;width:49%;height:auto;float:left;margin-top:2px}
+.khungtdright{padding-left:1%;width:49%;height:auto;float:right;margin-top:2px;}
+.more{width:100%; height:auto; text-align:right; color:#663300;font-style:italic}
+.date{font-style:italic;color:#FF9966}
+.noidungpost{float:left;text-align:left;height:auto}
+.noidungtext-left{padding-left:1%;font-size:19px;font-family:"Times New Roman",Times,serif; color:#000000;height:auto;}
+.noidungtext-right{width:100%;float:left;text-align:left;font-size:19px;font-family:"Times New Roman",Times,serif; color:#000000;margin-top:5px;height:auto;}
+.clear-right {clear:right}
+.cimg {width:100%; height:auto;}
+.img-noidung{width:50%;height:auto;float:left; margin-top:5px;}
+.content{width:100%;height:auto;}
+gg{}
+
+
+
+
+

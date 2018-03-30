@@ -1,0 +1,25 @@
+/*===============================
+      Code By Nguyễn Thanh Thiên
+      CD161QM
+=================================*/
+
+/* nam co dinh */
+#menucd-web{width:100%;height:35px;background-color:#265325;display:block;box-shadow:0 2px 2px rgba(0,0,0,0.5);/*Đổ bóng cho menu*/}
+/*-----Responsive Drop Down Menu by MBT ----*/
+body{margin:0}
+#menu{background:#000099;color:#FFF;height:40px;border-bottom:2px solid #DDD;border-top:2px solid #DDD}
+#menu ul,#menu li{margin:0 auto;padding:0 0;list-style:none}
+#menu ul{height:40px;width:100%}
+#menu li{float:left;display:inline;position:relative;font:bold 0.9em Arial;}
+#menu a{display:block;line-height:40px;padding:0 30px;text-decoration:none;color:#FFF}
+#menu li a:hover{color:#E4E4E4;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;transition:all .1s ease-in-out;background:#5FC6EB}
+#menu input{display:none;margin:0 0;padding:0 0;width:80px;height:30px;opacity:0;cursor:pointer}
+#menu label{font:bold 30px Arial;display:none;width:35px;height:36px;line-height:36px;text-align:center}
+#menu label span{font-size:16px;position:absolute;left:35px}
+#menu ul.menus{height:auto;overflow:hidden;width:170px;background:#50B7DC;position:absolute;z-index:99;display:none}
+#menu ul.menus li{display:block;width:100%;font:normal 0.8em Arial;text-transform:none;border-bottom:1px dashed #31AFDB}
+#menu ul.menus a{color:#FFF;line-height:35px}
+#menu li:hover ul.menus{display:block}
+#menu ul.menus a:hover{background:#5FC6EB;color:#FFF;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+@media screen and (max-width:800px){#menu{position:relative}#menu ul{background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}#menu ul.menus{width:100%;position:static;padding-left:20px}#menu li{display:block;float:none;width:auto;font:normal 0.8em Arial}#menu input,#menu label{position:absolute;top:0;left:0;display:block}#menu input{z-index:4}#menu input:checked + label{color:white}#menu input:checked ~ ul{display:block}}
+<!-->Code fix by Thienhelios<!--->
